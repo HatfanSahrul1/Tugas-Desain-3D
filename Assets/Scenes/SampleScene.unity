@@ -370,11 +370,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   gravity: -9.81
-  groundCheckDistance: 0.2
   cameraTransform: {fileID: 1421105234}
   groundMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
+  groundCheckDistance: 0.2
 --- !u!143 &946023698
 CharacterController:
   m_ObjectHideFlags: 0
@@ -394,7 +394,7 @@ CharacterController:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Height: 6.88
+  m_Height: 6.34
   m_Radius: 0.95
   m_SlopeLimit: 45
   m_StepOffset: 0.3
